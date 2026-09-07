@@ -1,0 +1,72 @@
+name: Bug report
+description: Something in a public BaBa Labs repository does not work as documented
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        **If this is a security vulnerability, stop.** Do not file it here — follow
+        [our security policy](https://github.com/baba-labs/.github/blob/main/SECURITY.md) instead.
+
+        Public repositories are maintained on a best-effort basis. If you need a fix to a
+        timescale, that is a commercial conversation: hello@baba-labs.com.
+
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Release tag, package version, or commit SHA.
+      placeholder: v1.4.2, or 3f9a1c7
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected to happen
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened
+      description: Include the exact error message or output if there is one.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: |
+        The smallest sequence that triggers it. A failing test or minimal repository is
+        ideal but not required — a reproducible short report beats a polished vague one.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, runtime version, and anything else likely to matter.
+      placeholder: |
+        OS:
+        Runtime:
+        Other:
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else
+      description: Workarounds you found, when it started, or why you think it happens.
+    validations:
+      required: false

@@ -1,0 +1,37 @@
+name: Documentation problem
+description: Something documented is wrong, missing, or misleading
+labels: ["documentation", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Documentation that is wrong is worse than documentation that is absent, so these
+        are worth reporting.
+
+  - type: input
+    id: location
+    attributes:
+      label: Where
+      description: Link to the page, file or section.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem
+      options:
+        - Incorrect — it says something untrue
+        - Missing — something needed is not covered
+        - Unclear — correct but hard to follow
+        - Out of date — was true, is not any more
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: What is wrong, and what would be right
+      description: If you know the correct answer, saying so saves us working it out.
+    validations:
+      required: true
