@@ -1,0 +1,12 @@
+# Never commit key material
+*.pem
+*.key
+*.p12
+*.pfx
+.local-only/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
