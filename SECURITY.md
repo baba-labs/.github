@@ -61,8 +61,8 @@ than have you disclose out of frustration.
 ## Safe harbour
 
 If you make a good-faith effort to comply with this policy while researching a
-vulnerability, we will not pursue or support legal action against you, and we will
-treat your research as authorised.
+vulnerability, BaBa Labs Software Ltd will not pursue or support legal action against
+you, and will treat your research as authorised.
 
 Good faith means:
 
