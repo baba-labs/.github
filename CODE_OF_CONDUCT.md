@@ -33,12 +33,13 @@ and whenever someone is representing BaBa Labs in public.
 
 ## Reporting
 
-Report to <conduct@baba-labs.com>. Reports are handled by a director and treated
-confidentially. We will acknowledge within 3 business days.
+Report to <conduct@baba-labs.com>. Reports are handled by the company's director and
+treated confidentially. We will acknowledge within 3 business days.
 
-We are a small company, so a report may concern someone who receives that mailbox. If
-that is the case, say so and address it to the other director by name — we will make
-sure the person concerned is not involved in handling it.
+We are a small company with a single director, who also reads that mailbox. If your
+report concerns the director, you can raise it with GitHub instead using
+[GitHub's reporting tools](https://docs.github.com/en/communities/maintaining-your-safety-on-github/reporting-abuse-or-spam),
+which are handled independently of BaBa Labs.
 
 ## Enforcement
 
