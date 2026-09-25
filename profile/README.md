@@ -35,6 +35,12 @@ basis.
 
 ### Talk to us
 
-[baba-labs.com](https://baba-labs.com) · hello@baba-labs.com
+[baba-labs.com](https://baba-labs.com) · [hello@baba-labs.com](mailto:hello@baba-labs.com)
 
 Security vulnerabilities go to our [security policy](https://github.com/baba-labs/.github/blob/main/SECURITY.md), never a public issue.
+
+---
+
+<sub>BaBa Labs is a trading name of BaBa Labs Software Ltd, a company registered in England and
+Wales, company number 17465691. Registered office: 71–75 Shelton Street, Covent Garden,
+London, WC2H 9JQ.</sub>
